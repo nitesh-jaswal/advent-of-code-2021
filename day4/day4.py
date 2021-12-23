@@ -47,6 +47,7 @@ def parse_input() -> Tuple[List, List]:
                 input_lines = []
                 continue
             input_lines += [line]
+        # Add last board to list
         boards += [Board(input_lines=input_lines)]
     return((input_nums, boards))
 

@@ -1,7 +1,5 @@
 from typing import List, Tuple
 import numpy as np
-import sys
-from math import log10
 # TODO: Explore if there is a linear algebraic method of solving this
 
 def parse_input():
